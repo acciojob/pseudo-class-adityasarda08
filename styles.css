@@ -2,12 +2,14 @@
   margin:20px;
 }
 #container::before{
-  content:"Before Element ";
+  content:"Before Element";
   color:#f00;
   font-size:20px;
+  margin-right:8px;
 }
 #container::after{
-  content:" After Element";
+  content:"After Element";
   color:#f00;
   font-size:20px;
+  margin-left:8px;
 }
